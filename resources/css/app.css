@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.slides {
+	display: flex;
+	position: absolute;
+	left: 700px;
+	overflow: hidden;
+	width: 500px;
+}
+
+li {
+	transform: translateX(0px);
+	transition: 1s;
+}
+
